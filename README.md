@@ -1,7 +1,8 @@
-# lijn_volger
+# Algemene informatie
 Klas:           TICT-TI-V1B
 Projectgroep:   Groep 1 (The A-team)
 Teamleider:     Ramon van Bemmel
+Project:        "De lijnen volger"
 
 
 ## Projectgroep
