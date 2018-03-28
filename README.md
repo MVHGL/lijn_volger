@@ -1,8 +1,19 @@
-# Algemene informatie
-Klas:           TICT-TI-V1B
-Projectgroep:   Groep 1 (The A-team)
-Teamleider:     Cris van der Nolle
-Project:        "De lijnen volger"
+# De lijn_volger
+Dit is een kort maar krachtig stuk text over het project.
+
+
+## Inhoudsopgave
+* [Algemene informatie](#algemene-informatie)
+* [Projectgroep](#projectgroep)
+* [Taakverdeling](#taakverdeling)
+* [Installatie (TODO)](#)
+* [Licentie (TODO)](#)
+
+## Algemene informatie
+* Klas:           TICT-TI-V1B
+* Projectgroep:   Groep 1 (The A-team)
+* Teamleider:     Cris van der Nolle
+* Project:        "De lijnen volger"
 
 
 ## Projectgroep
