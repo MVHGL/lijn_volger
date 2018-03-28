@@ -1,7 +1,7 @@
 # Algemene informatie
 Klas:           TICT-TI-V1B
 Projectgroep:   Groep 1 (The A-team)
-Teamleider:     Ramon van Bemmel
+Teamleider:     Cris van der Nolle
 Project:        "De lijnen volger"
 
 
