@@ -1,27 +1,20 @@
-#include "BrickPi3.h"
 #include "motor_control.hpp"
+#include "BrickPi3.h"
 #include <stdio.h>
+#include <unistd.h>
 
-void hard_left(uint8_t left_port, uint8_t right_port)
+BrickPi3 MyBP; // new instance of BrickPi3
+
+void go_left(uint8_t left_port, uint8_t right_port)
 {
-	set_motor_power(right_port, 50);	// turn clockwise
-	set_motor_power(left_port, -50);	// turn counter clockwise
-
-	for (int i=0; i < (HARD_TURN / 2); i++){
-		set_motor_position_relative(right_port, 1);
-		set_motor_position_relative(left_port, 1);
-	}
-	printf("Left turn completed\n");
+	MyBP.set_motor_power(right_port, 40);
+	MyBP.set_motor_power(left_port, 20);
+	printf("Left turn\n");
 }
 
-void hard_right(uint8_t left_port, uint8_t right_port)
+void go_right(uint8_t left_port, uint8_t right_port)
 {
-	set_motor_power(right_port, -50);	// turn counter clockwise
-	set_motor_power(left_port, 50);		// turn clockwise
-
-	for(int i=0; i < (HARD_TURN / 2); i++){
-		set_motor_position_relative(right_port, 1);
-		set_motor_position_relative(left_port, 1);
-	}
-	printf("Right turn completed\n");
+	MyBP.set_motor_power(right_port, 20);
+	MyBP.set_motor_power(left_port, 40);
+	printf("Right turn\n");
 }

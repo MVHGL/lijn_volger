@@ -5,9 +5,9 @@
 * [Doelen](https://github.com/ramonvbemmel/lijn_volger/PAPER.md#doelen)
 
 ## Inleiding
-In dit document wordt ingegaan op het door ons onwtikkelde
+In dit document wordt ingegaan op het door ons ontwikkelde
 algoritme. Onze robot (gebouwd op LEGO mindstorms) wordt
-bestuurd door een programma dat draait ope en Raspberry Pi en input
+bestuurd door een programma dat draait op een Raspberry Pi en input
 geeft aan de robot via een BrickPi shield.
 
 De bedoeling van de robot is dat hij volledig autonoom een zwarte lijn
