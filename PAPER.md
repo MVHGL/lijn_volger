@@ -30,6 +30,21 @@ Het algoritme moet zo werken dat de lijnvolger:
 * Obstakels op de lijn kan ontwijken.
 * Zijn weg terug kan vinden naar de lijn.
 
-We willen ook kijken of we de lijnvolger zelf kunnen laten bepalen wat wit
-of zwart is door hem een meting uit te laten voeren, waarbij er een grenswaarde
-is die aangeeft of de datgene wat hij ziet zwart of wit is, of geen van beide.
+## Algorithme
+Het maken van bochten is het makkelijkst als we dit proportioneel
+doen. We kunnen de lichtwaardes meten en kijken wat wit, zwart en
+gecombineerd wit/zwart is. De bevindingen zijn als volgt;
+
+|Sensor type | Dark | Light|
+|---|---|---|
+Light sensor | `> 2000`| `< 2000` | 
+RGB sensor |`< 450` | `> 450`|
+
+De sensoren, vooral de zwart/wit sensor, zijn wel heel erg gevoelig.
+Om de grote fluctuaties in de uitlezingen te verminderen delen wij deze door 
+een getal om een kleinere schaal te bereiken. We gebruiken deze waardes om proportioneel
+bij te kunnen sturen waardoor de robot veel soepeler over de lijn rijdt.
+
+De formule die we gebruiken is als volgt:
+
+

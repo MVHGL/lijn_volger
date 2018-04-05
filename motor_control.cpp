@@ -4,23 +4,49 @@
 #include <unistd.h>
 
 BrickPi3 MyBP; // new instance of BrickPi3
+int debug_motor=0;
 
-void go_left(uint8_t left_port, uint8_t right_port)
+void run_motor(int left_power, int right_power)
 {
-	MyBP.set_motor_power(right_port, 27);
-	MyBP.set_motor_power(left_port, 5);
-	printf("Left turn\n");
+	MyBP.set_motor_power(PORT_C, right_power);
+	MyBP.set_motor_power(PORT_B, left_power);
 }
 
-void go_right(uint8_t left_port, uint8_t right_port)
-{
-	MyBP.set_motor_power(right_port, 5);
-	MyBP.set_motor_power(left_port,27);
-	printf("Right turn\n");
-}
 
-void go_straight(uint8_t left_port, uint8_t right_port)
+void prop_power(int sensor_value, bool left_sensor)
 {
-	MyBP.set_motor_power(right_port, 45);
-	MyBP.set_motor_power(left_port, 45);
+	int Kp = 2;	// Proportional constant
+	int right_offset = 24; // offset for right sensor
+	int left_offset = 71;   // offset for left sensor
+	int Tp = 24;		 // Target power
+
+	int motor_left = 0;
+	int motor_right = 0;
+
+	/* check which sensor */
+	if (left_sensor){
+		sensor_value = sensor_value / 6;
+		int error = sensor_value - left_offset;
+		printf("ERROR: %d\n", error);
+		printf("SENSOR_V: %d\n", sensor_value);
+		int turn = Kp * error;
+
+		motor_left = Tp - turn;
+		motor_right = Tp + turn;
+	}
+	else{
+		sensor_value = sensor_value / 80;
+		int error = sensor_value - right_offset;
+		printf("ERROR: %d\n", error);
+		printf("SENSOR_V: %d\n", sensor_value);
+		int turn = Kp * error;
+
+		motor_left = Tp + turn;
+		motor_right = Tp - turn;
+
+	}
+
+	printf("Motor left: %d\n", motor_left);
+	printf("Motor right: %d\n", motor_right);
+	run_motor(motor_left, motor_right);
 }
