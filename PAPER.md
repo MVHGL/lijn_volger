@@ -1,6 +1,6 @@
-# Sturingsalgoritme lijnvolger
+# Besturingsalgoritme lijnvolger
 
-## Index
+## Inhoudsopgave
 * [Inleiding](https://github.com/ramonvbemmel/lijn_volger/PAPER.md#inleiding)
 * [Doelen](https://github.com/ramonvbemmel/lijn_volger/PAPER.md#doelen)
 
