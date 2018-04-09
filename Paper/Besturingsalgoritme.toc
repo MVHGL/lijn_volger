@@ -1,0 +1,14 @@
+\babel@toc {dutch}{}
+\contentsline {section}{\numberline {1}Inleiding}{2}
+\contentsline {section}{\numberline {2}Doelen}{3}
+\contentsline {section}{\numberline {3}Ontwerp}{4}
+\contentsline {subsection}{\numberline {3.1}De Robot}{4}
+\contentsline {subsection}{\numberline {3.2}Use Case Diagram}{5}
+\contentsline {section}{\numberline {4}Algoritme}{6}
+\contentsline {subsection}{\numberline {4.1}Motoren}{6}
+\contentsline {subsubsection}{\numberline {4.1.1}Sturing}{6}
+\contentsline {subsubsection}{\numberline {4.1.2}Code voorbeeld}{8}
+\contentsline {subsection}{\numberline {4.2}Sensoren}{8}
+\contentsline {subsubsection}{\numberline {4.2.1}RGB}{8}
+\contentsline {subsubsection}{\numberline {4.2.2}Lichtsensor}{9}
+\contentsline {subsubsection}{\numberline {4.2.3}Ultrasoonsensor}{9}
