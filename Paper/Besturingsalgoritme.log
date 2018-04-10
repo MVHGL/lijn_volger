@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.7)  9 APR 2018 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.7)  9 APR 2018 15:39
 entering extended mode
 **./Besturingsalgoritme.tex
 (Besturingsalgoritme.tex
@@ -465,27 +465,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images/proportional.png, id=39, 202.95825pt x 219.219pt>
 File: Images/proportional.png Graphic file (type png)
 <use Images/proportional.png>
-Package pdftex.def Info: Images/proportional.png  used on input line 132.
+Package pdftex.def Info: Images/proportional.png  used on input line 134.
 (pdftex.def)             Requested size: 142.0698pt x 153.45224pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 |\OT1/cmr/m/n/12 Proportionele
  []
 
 
-Overfull \hbox (5.01292pt too wide) in paragraph at lines 134--134
+Overfull \hbox (5.01292pt too wide) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 terugkoppeling| 
  []
 
 [7 <./Images/proportional.png>] [8] [9] (Besturingsalgoritme.aux) ) 
 Here is how much of TeX's memory you used:
  4958 strings out of 493305
- 73757 string characters out of 3129803
+ 73877 string characters out of 3129803
  167681 words of memory out of 3000000
  8410 multiletter control sequences out of 15000+200000
  12241 words of font info for 44 fonts, out of 3000000 for 9000
@@ -504,7 +504,7 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/marcd
 cmti12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Besturingsalgoritme.pdf (10 pages, 324800 bytes).
+Output written on Besturingsalgoritme.pdf (10 pages, 325155 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
