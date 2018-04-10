@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.7)  9 APR 2018 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.7)  10 APR 2018 13:55
 entering extended mode
 **./Besturingsalgoritme.tex
 (Besturingsalgoritme.tex
@@ -406,55 +406,55 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 <Images/TeslaModelS.jpg, id=23, 722.7pt x 963.6pt>
 File: Images/TeslaModelS.jpg Graphic file (type jpg)
 <use Images/TeslaModelS.jpg>
-Package pdftex.def Info: Images/TeslaModelS.jpg  used on input line 91.
+Package pdftex.def Info: Images/TeslaModelS.jpg  used on input line 92.
 (pdftex.def)             Requested size: 216.81166pt x 289.08223pt.
 
-Overfull \hbox (47.48701pt too wide) in paragraph at lines 93--93
+Overfull \hbox (47.48701pt too wide) in paragraph at lines 94--94
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Overfull \hbox (37.85655pt too wide) in paragraph at lines 93--93
+Overfull \hbox (37.85655pt too wide) in paragraph at lines 94--94
 |\OT1/cmr/m/n/12 "Model
  []
 
 
-Overfull \hbox (12.40265pt too wide) in paragraph at lines 93--93
+Overfull \hbox (12.40265pt too wide) in paragraph at lines 94--94
 \OT1/cmr/m/n/12 S"| 
  []
 
 <Images/UseCase.png, id=24, 259.56975pt x 324.61275pt>
 File: Images/UseCase.png Graphic file (type png)
 <use Images/UseCase.png>
-Package pdftex.def Info: Images/UseCase.png  used on input line 99.
+Package pdftex.def Info: Images/UseCase.png  used on input line 100.
 (pdftex.def)             Requested size: 181.69757pt x 227.22736pt.
 
-Overfull \hbox (2.06262pt too wide) in paragraph at lines 101--101
+Overfull \hbox (2.06262pt too wide) in paragraph at lines 102--102
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 |\OT1/cmr/m/n/12 In deze
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \OT1/cmr/m/n/12 te zien
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \OT1/cmr/m/n/12 welke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \OT1/cmr/m/n/12 ac-ti-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \OT1/cmr/m/n/12 tei-ten
  []
 
@@ -465,29 +465,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images/proportional.png, id=39, 202.95825pt x 219.219pt>
 File: Images/proportional.png Graphic file (type png)
 <use Images/proportional.png>
-Package pdftex.def Info: Images/proportional.png  used on input line 134.
+Package pdftex.def Info: Images/proportional.png  used on input line 135.
 (pdftex.def)             Requested size: 142.0698pt x 153.45224pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 |\OT1/cmr/m/n/12 Proportionele
  []
 
 
-Overfull \hbox (5.01292pt too wide) in paragraph at lines 136--136
+Overfull \hbox (5.01292pt too wide) in paragraph at lines 137--137
 \OT1/cmr/m/n/12 terugkoppeling| 
  []
 
 [7 <./Images/proportional.png>] [8] [9] (Besturingsalgoritme.aux) ) 
 Here is how much of TeX's memory you used:
- 4958 strings out of 493305
- 73877 string characters out of 3129803
+ 4966 strings out of 493305
+ 74018 string characters out of 3129803
  167681 words of memory out of 3000000
- 8410 multiletter control sequences out of 15000+200000
+ 8418 multiletter control sequences out of 15000+200000
  12241 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,58p,520b,1079s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -504,7 +504,7 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/marcd
 cmti12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Besturingsalgoritme.pdf (10 pages, 325155 bytes).
+Output written on Besturingsalgoritme.pdf (10 pages, 326496 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

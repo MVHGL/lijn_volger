@@ -80,6 +80,7 @@
 		\item Bij een bocht kan afslaan.
 		\item Obstakels op de lijn kan ontwijken.
 		\item Zijn weg terug kan vinden naar de lijn.
+		\item Kan navigeren door een grid.
 	\end{itemize}
 \newpage
 \section{Ontwerp}
@@ -102,7 +103,7 @@
 		\end{center}
 		De robot moet dus een zwarte lijn kunnen volgen, een obstakel kunnen ontwijken op een parcours en een richtingskeuze moeten kunnen maken in splitsingen. We zullen aan de hand van een activity diagram laten zien hoe dit gerealiseerd wordt. \\Er is geen interactie met andere actoren aangezien deze robot geheel zelfstandig is. In principe is het enige dat er door een persoon moet gebeuren, het plaatsen van de robot op het bord. Maar dat hebben we hier buiten beschouwing gelaten.
 	\subsection{Activity Diagram}
-		In dit kader beschrijven we in het kort hoe we globaal het algoritme hebben laten 	
+		In dit kader beschrijven we in het kort hoe we globaal het algoritme hebben ontworpen.
 \newpage
 \section{Algoritme}
 	\subsection{Motoren}
@@ -153,7 +154,7 @@
 				    MyBP.set_motor_power(PORT_B, left_power);
 				}
 			\end{lstlisting}
-			Bij de functie \texttt{void run\_motor(int left\_power, int right\_power)} zal er bij een gegeven \texttt{int left\_power} en \texttt{int right\_power)} een afstand worden afgelegd.
+			Bij de functie \texttt{void run\_motor(int left\_power, int right\_power)} zal er bij een gegeven \texttt{int left\_power} en \texttt{int right\_power} een afstand worden afgelegd.
 		
 		
 	\subsection{Sensoren}
@@ -169,7 +170,18 @@
 			Tot slot is er nog de ultrasoon sensor. Deze sensor meet aan de hand van een uitgezonden geluidssignaal de afstand tussen een potentieel object en zichzelf. Hiermee kunnen we een object dus herkennen. De volgende formule speelt hierbij een rol:
 			\begin{center}
 				\Large $v_{geluid} = 340\ m/s$ \\
-				\Large $s_{lengte} = v_{geluid} \times (t / 2)$
+				\Large $s_{lengte} = v_{geluid} \times (t / 2)$ \\[0.5cm]
 			\end{center}
+			Hieronder zullen we een kort stukje pseudocode beschrijven van het ontwijken van een object in een normaal parcours.
+			\begin{lstlisting}
+				int pre_defined_value = 10 // set the value to 10 cm
+				while (true)
+				{
+				    if (ultrasonic_sensor > pre_defined_value)
+				    {
+					    dodge_cyclus(); // function to dodge the object
+				    }
+				}
+			\end{lstlisting}
 		
 \end{document}
