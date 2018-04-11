@@ -13,7 +13,7 @@ void run_motor(int left_power, int right_power)		//Zet de motorpower op ingegeve
 }
 
 
-void prop_power(int sensor_value, bool left_sensor, &debug)	//Functie voor propotioneel bij sturen.
+void prop_power(int sensor_value, bool left_sensor)	//Functie voor propotioneel bij sturen.
 {
 	int Kp = 2;	// Proportional constant
 	int right_offset = 24; // offset for right sensor
@@ -27,9 +27,8 @@ void prop_power(int sensor_value, bool left_sensor, &debug)	//Functie voor propo
 	if (left_sensor){
 		sensor_value = sensor_value / 6;
 		int error = sensor_value - left_offset;
-		if(debug){
-			printf("ERROR: %d\n", error);
-			printf("SENSOR_V: %d\n", sensor_value);}
+		printf("ERROR: %d\n", error);
+		printf("SENSOR_V: %d\n", sensor_value);
 		int turn = Kp * error;
 
 		motor_left = Tp - turn;
@@ -38,17 +37,16 @@ void prop_power(int sensor_value, bool left_sensor, &debug)	//Functie voor propo
 	else{
 		sensor_value = sensor_value / 80;
 		int error = sensor_value - right_offset;
-		if(debug){
-			printf("ERROR: %d\n", error);
-			printf("SENSOR_V: %d\n", sensor_value);}
+		printf("ERROR: %d\n", error);
+		printf("SENSOR_V: %d\n", sensor_value);
 		int turn = Kp * error;
 
 		motor_left = Tp + turn;
 		motor_right = Tp - turn;
 
 	}
-	if(debug){
-		printf("Motor left: %d\n", motor_left);
-		printf("Motor right: %d\n", motor_right);}
+
+	printf("Motor left: %d\n", motor_left);
+	printf("Motor right: %d\n", motor_right);
 	run_motor(motor_left, motor_right);
 }
