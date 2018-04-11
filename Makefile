@@ -8,7 +8,7 @@ SRCEXT := cpp
 SOURCES_1 := $(shell find $(SRCDIR_1) -type f -name *.$(SRCEXT))
 SOURCES_2 := $(shell find $(SRCDIR_2) -type f -name *.$(SRCEXT))
 LIBRARIES := $(shell find $(LIBDIR) -type f -name *.$(SRCEXT))
-CFLAGS := -Wall -g --std=c++14
+CFLAGS :=  --std=c++14
 
 course_one:
 	@echo "Making first course..."

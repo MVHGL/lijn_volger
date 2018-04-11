@@ -1,5 +1,7 @@
 # Ignore executables
 bin/*
+# Make exception to the rule
+!bin/.gitkeep
 
 # Ignore Macintosh specific files
-.DS_Store
+.DS_Storef

@@ -11,6 +11,10 @@
 using namespace std;
 
 BrickPi3 BP;	// instance of BrickPi3 class
+void setup();
+void dodge();
+unsigned int read_distance();
+void exit_signal_handler(int signo);
 
 //DEBUG  
 int debug = 0;//zet op 1 voor algemene debug. 
