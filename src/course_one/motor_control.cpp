@@ -4,16 +4,16 @@
 #include <unistd.h>
 
 BrickPi3 MyBP; // new instance of BrickPi3
-int debug_motor=0;
+int debug_motor=0;	//Zet op 1 om te debuggen
 
-void run_motor(int left_power, int right_power)
+void run_motor(int left_power, int right_power)		//Zet de motorpower op ingegeven waarde. 
 {
 	MyBP.set_motor_power(PORT_C, right_power);
 	MyBP.set_motor_power(PORT_B, left_power);
 }
 
 
-void prop_power(int sensor_value, bool left_sensor)
+void prop_power(int sensor_value, bool left_sensor)	//Functie voor propotioneel bij sturen.
 {
 	int Kp = 2;	// Proportional constant
 	int right_offset = 24; // offset for right sensor
