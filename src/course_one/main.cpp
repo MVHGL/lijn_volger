@@ -1,3 +1,13 @@
+/*======================================================================================================================================
+Project: 		Lijnvolger. 
+Projectgroep:		1.
+			Marc Dirven, Cris van de Nolle, Nathan Hoekstra, Nick Snel en Ramon van Bemmel.
+Klas:			V1B.
+Gemaakt door:		Marc Dirven, Cris van de Nolle, Nathan Hoekstra, Nick Snel en Ramon van Bemmel.
+Functie van de code:	Deze code laat de BrickPi een lijn volgen en stuurt proportioneel bij. Als er een object voor de ultrasoon sensor
+			staat rijdt de bot hier omheen. 
+=======================================================================================================================================*/
+
 #include "../../lib/BrickPi3.h" // for BrickPi3
 #include <iostream>      // for cout
 #include <unistd.h>     // for sleep
