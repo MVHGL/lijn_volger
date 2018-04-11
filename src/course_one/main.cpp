@@ -13,16 +13,16 @@ using namespace std;
 BrickPi3 BP;	// instance of BrickPi3 class
 
 //DEBUG  
-int debug = 0;//zet op 1 voor debug. 
-int debug_ultrasoon = 0;
+int debug = 0;//zet op 1 voor algemene debug. 
+int debug_ultrasoon = 0;	//Zet op 1 voor het debuggen van de ultrasoon. 
 
 //variabelen.
-unsigned int switch_afstand = 10;
-unsigned int afstand = 100;
+unsigned int switch_afstand = 10; 	//Deze variabele bepaald welke afstand een object minimaal van de bot af moet staan. 
+unsigned int afstand = 100;		//Hier wordt steeds de ultrasoon waarde in opgeslagen.
 
-int main()
+int main()   // De main functie. 
 {
-	setup();
+	setup();  		   
 	int error;
 
 	/* initialize sensor modes */
@@ -38,14 +38,17 @@ int main()
 	{
 		if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0)
 		{
-			cout << afstand << endl;
+			if(debug_ultrasoon){			
+				cout << afstand << endl;}
+			
 			afstand = read_distance();
 
 			if (afstand <= switch_afstand && afstand) // als er een object is gaat die hem hier ontwijken. 
-				dodge();
-
-			if (debug_ultrasoon)
+			{
+				dodge();}
+			if (debug_ultrasoon){
 				cout << read_distance() << endl;
+			}
 
 			prop_power(R_VAL, false); // steer proportionally on the right
 			prop_power(L_VAL, true);  // steer proportionally on the left
@@ -53,7 +56,7 @@ int main()
 	}
 }
 
-unsigned int read_distance() 		//Dit is de functie voor het lezen van de afstand. 
+unsigned int read_distance() 		//Dit is de functie voor het lezen van de afstand via de ultrasoon. 
 {
 	int a = 0, b = 0, t = 0;
 	sensor_ultrasonic_t Ultrasonic2;
@@ -74,14 +77,14 @@ unsigned int read_distance() 		//Dit is de functie voor het lezen van de afstand
 	}
 
 }
-void setup()
+void setup()			//Deze functie stelt alles jusit in. 
 {
 	signal(SIGINT, exit_signal_handler); // Ctrl-c signal handler
 	BP.detect(); // Check for BrickPi firmware
 }
-void dodge()
+void dodge() 			//Deze functie is de ontwijkprocedure als er een object is gevonden. 
 {
-	float delay = 1;
+	float delay = 1;	//hier kan de delaytijd tussen elke stap worden ingesteld. 
 	sensor_light_t      right_light; // struct for sensors
 	sensor_light_t      left_light;
 
