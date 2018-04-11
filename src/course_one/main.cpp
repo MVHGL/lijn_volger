@@ -1,10 +1,9 @@
-#include "BrickPi3.h" // for BrickPi3
+#include "../../lib/BrickPi3.h" // for BrickPi3
 #include <iostream>      // for cout
 #include <unistd.h>     // for sleep
 #include <signal.h>     // for catching exit signals
 #include <iomanip>		// for setw and setprecision
 #include "motor_control.hpp"	// for controlling the motors
-#include "Ontwijken_header.hpp" // Header file for used functions
 
 #define R_VAL right_light.reflected	// light sensor on right side
 #define L_VAL left_light.reflected	// light sensor on left side

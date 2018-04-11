@@ -1,5 +1,5 @@
 #include "matrix_control.hpp"
-#include "BrickPi3.h"
+#include "../../lib/BrickPi3.h"
 #include <stdio.h>
 #include <unistd.h>
 

@@ -1,0 +1,5 @@
+# Ignore executables
+bin/*
+
+# Ignore Macintosh specific files
+.DS_Store

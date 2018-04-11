@@ -2,7 +2,7 @@
 #define _MOTOR_CONTROL_HPP
 
 #include <stdint.h>	// for uint8_t
-#include "BrickPi3.h"
+#include "../../lib/BrickPi3.h"
 
 
 /* function definitions */

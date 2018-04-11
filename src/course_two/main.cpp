@@ -1,4 +1,4 @@
-#include "BrickPi3.h" // for BrickPi3
+#include "../../lib/BrickPi3.h" // for BrickPi3
 #include <iostream>      // for cout
 #include <unistd.h>     // for sleep
 #include <signal.h>     // for catching exit signals
