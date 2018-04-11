@@ -4,4 +4,4 @@ bin/*
 !bin/.gitkeep
 
 # Ignore Macintosh specific files
-.DS_Storef
+.DS_Store
