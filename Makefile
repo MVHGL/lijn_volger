@@ -1,6 +1,6 @@
-CC := g++ # Main compiler
-SRCDIR_1 := src/course_one # first course path
-SRCDIR_2 := src/course_two # second (matrix) course path
+CC := g++
+SRCDIR_1 := src/course_one
+SRCDIR_2 := src/course_two
 LIBDIR := lib
 TARGET := bin
 
