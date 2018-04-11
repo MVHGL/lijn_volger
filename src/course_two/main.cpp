@@ -90,10 +90,10 @@ int main()
 				cout << "RVAL: " << R_VAL << '\n';
 				reset_encoders();
 				stop_engines();
-				set_encoders(int &motorEncoderLeft_new, int &motorEncoderRight_new);
+				set_encoders(motorEncoderLeft_new,motorEncoderRight_new);
 				if(motorEncoderLeft_new > motorEncoderLeft_old +10 && motorEncoderLeft_new < motorEncoderLeft_old -10)
 				{
-					set_encoders(int &motorEncoderLeft_old, int &motorEncoderRight_old);
+					set_encoders(motorEncoderLeft_old, motorEncoderRight_old);
 					update_location(my_x, my_y, direction);
 					cout << "Location updated." << '\n';
 				}
