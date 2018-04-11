@@ -26,6 +26,10 @@ int target_y = 2;
 int direction = 90;
 int32_t motorEncoderRight;
 int32_t motorEncoderLeft;
+int32_t motorEncoderRight_old;
+int32_t motorEncoderLeft_old;
+int32_t motorEncoderRight_new;
+int32_t motorEncoderLeft_new;
 int distance_obstacle;
 unsigned int read_distance();
 bool obstacle = false;
@@ -86,8 +90,13 @@ int main()
 				cout << "RVAL: " << R_VAL << '\n';
 				reset_encoders();
 				stop_engines();
-				update_location(my_x, my_y, direction);
-				cout << "Location updated." << '\n';
+				set_encoders(int &motorEncoderLeft_new, int &motorEncoderRight_new);
+				if(motorEncoderLeft_new > motorEncoderLeft_old +10 && motorEncoderLeft_new < motorEncoderLeft_old -10)
+				{
+					set_encoders(int &motorEncoderLeft_old, int &motorEncoderRight_old);
+					update_location(my_x, my_y, direction);
+					cout << "Location updated." << '\n';
+				}
 				while (R_VAL > inter_val_light && L_VAL < inter_val_rgb && distance_obstacle > 10)
 				{	
 					if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0)	
