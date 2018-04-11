@@ -31,8 +31,8 @@ void prop_power(int sensor_value, bool left_sensor)	//Functie voor propotioneel 
 		printf("SENSOR_V: %d\n", sensor_value);
 		int turn = Kp * error;
 
-		motor_left = Tp - turn;
-		motor_right = Tp + turn;
+		motor_left = Tp + turn;
+		motor_right = Tp - turn;
 	}
 	else{
 		sensor_value = sensor_value / 80;
