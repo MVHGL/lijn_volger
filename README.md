@@ -1,4 +1,4 @@
-![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![HitCount](http://hits.dwyl.io/ramonvbemmel/lijn_volger.svg)](http://hits.dwyl.io/ramonvbemmel/lijn_volger)
 # De lijn_volger
 Dit is een kort maar krachtig stuk text over het project.
