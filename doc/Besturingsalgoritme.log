@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.7)  10 APR 2018 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.7)  12 APR 2018 14:30
 entering extended mode
 **./Besturingsalgoritme.tex
 (Besturingsalgoritme.tex
@@ -406,107 +406,189 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 <Images/TeslaModelS.jpg, id=23, 722.7pt x 963.6pt>
 File: Images/TeslaModelS.jpg Graphic file (type jpg)
 <use Images/TeslaModelS.jpg>
-Package pdftex.def Info: Images/TeslaModelS.jpg  used on input line 92.
+Package pdftex.def Info: Images/TeslaModelS.jpg  used on input line 101.
 (pdftex.def)             Requested size: 216.81166pt x 289.08223pt.
 
-Overfull \hbox (47.48701pt too wide) in paragraph at lines 94--94
+Overfull \hbox (47.48701pt too wide) in paragraph at lines 103--103
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Overfull \hbox (37.85655pt too wide) in paragraph at lines 94--94
+Overfull \hbox (37.85655pt too wide) in paragraph at lines 103--103
 |\OT1/cmr/m/n/12 "Model
  []
 
 
-Overfull \hbox (12.40265pt too wide) in paragraph at lines 94--94
+Overfull \hbox (12.40265pt too wide) in paragraph at lines 103--103
 \OT1/cmr/m/n/12 S"| 
  []
 
-<Images/UseCase.png, id=24, 259.56975pt x 324.61275pt>
+[4 <./Images/TeslaModelS.jpg>]
+<Images/UseCase.png, id=27, 259.56975pt x 324.61275pt>
 File: Images/UseCase.png Graphic file (type png)
 <use Images/UseCase.png>
-Package pdftex.def Info: Images/UseCase.png  used on input line 100.
+Package pdftex.def Info: Images/UseCase.png  used on input line 110.
 (pdftex.def)             Requested size: 181.69757pt x 227.22736pt.
 
-Overfull \hbox (2.06262pt too wide) in paragraph at lines 102--102
+Overfull \hbox (2.06262pt too wide) in paragraph at lines 112--112
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 |\OT1/cmr/m/n/12 In deze
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \OT1/cmr/m/n/12 te zien
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \OT1/cmr/m/n/12 welke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \OT1/cmr/m/n/12 ac-ti-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \OT1/cmr/m/n/12 tei-ten
  []
 
+[5 <./Images/UseCase.png>]
+<Images/ActivityDiagramParcours1.jpg, id=32, 1113.56026pt x 817.8555pt>
+File: Images/ActivityDiagramParcours1.jpg Graphic file (type jpg)
+<use Images/ActivityDiagramParcours1.jpg>
+Package pdftex.def Info: Images/ActivityDiagramParcours1.jpg  used on input lin
+e 121.
+(pdftex.def)             Requested size: 445.41621pt x 327.1364pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./Images/TeslaModelS.jpg>] [5 <./Images/UseCase.png>] [6]
-<Images/proportional.png, id=39, 202.95825pt x 219.219pt>
-File: Images/proportional.png Graphic file (type png)
-<use Images/proportional.png>
-Package pdftex.def Info: Images/proportional.png  used on input line 135.
-(pdftex.def)             Requested size: 142.0698pt x 153.45224pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Overfull \hbox (112.90323pt too wide) in paragraph at lines 123--123
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Overfull \hbox (107.18939pt too wide) in paragraph at lines 123--123
+|\OT1/cmr/m/n/12 Activity
+ []
+
+
+Overfull \hbox (87.44516pt too wide) in paragraph at lines 123--123
+\OT1/cmr/m/n/12 Dia-
+ []
+
+
+Overfull \hbox (91.52705pt too wide) in paragraph at lines 123--123
+\OT1/cmr/m/n/12 gram
+ []
+
+
+Overfull \hbox (86.30489pt too wide) in paragraph at lines 123--123
+\OT1/cmr/m/n/12 par-
+ []
+
+
+Overfull \hbox (92.2451pt too wide) in paragraph at lines 123--123
+\OT1/cmr/m/n/12 cours
+ []
+
+
+Overfull \hbox (71.29115pt too wide) in paragraph at lines 123--123
+\OT1/cmr/m/n/12 1| 
+ []
+
+[6 <./Images/ActivityDiagramParcours1.jpg>]
+<Images/ActivityDiagramMatrix.jpg, id=37, 815.045pt x 723.20187pt>
+File: Images/ActivityDiagramMatrix.jpg Graphic file (type jpg)
+<use Images/ActivityDiagramMatrix.jpg>
+Package pdftex.def Info: Images/ActivityDiagramMatrix.jpg  used on input line 1
+30.
+(pdftex.def)             Requested size: 407.5215pt x 361.60005pt.
+
+Overfull \hbox (75.00851pt too wide) in paragraph at lines 132--132
+[][]\OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (69.29468pt too wide) in paragraph at lines 132--132
+|\OT1/cmr/m/n/12 Activity
+ []
+
+
+Overfull \hbox (49.55045pt too wide) in paragraph at lines 132--132
+\OT1/cmr/m/n/12 Dia-
+ []
+
+
+Overfull \hbox (53.63234pt too wide) in paragraph at lines 132--132
+\OT1/cmr/m/n/12 gram
+ []
+
+
+Overfull \hbox (47.10463pt too wide) in paragraph at lines 132--132
+\OT1/cmr/m/n/12 ma-
+ []
+
+
+Overfull \hbox (46.12547pt too wide) in paragraph at lines 132--132
+\OT1/cmr/m/n/12 trix
+ []
+
+
+Overfull \hbox (71.32243pt too wide) in paragraph at lines 132--132
+\OT1/cmr/m/n/12 parcours| 
+ []
+
+[7 <./Images/ActivityDiagramMatrix.jpg>] [8]
+<Images/proportional.png, id=47, 202.95825pt x 219.219pt>
+File: Images/proportional.png Graphic file (type png)
+<use Images/proportional.png>
+Package pdftex.def Info: Images/proportional.png  used on input line 164.
+(pdftex.def)             Requested size: 142.0698pt x 153.45224pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[][]\OT1/cmr/m/n/12 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 |\OT1/cmr/m/n/12 Proportionele
  []
 
 
-Overfull \hbox (5.01292pt too wide) in paragraph at lines 137--137
+Overfull \hbox (5.01292pt too wide) in paragraph at lines 166--166
 \OT1/cmr/m/n/12 terugkoppeling| 
  []
 
-[7 <./Images/proportional.png>] [8] [9] (Besturingsalgoritme.aux) ) 
+[9 <./Images/proportional.png>] [10] [11] [12] (Besturingsalgoritme.aux) ) 
 Here is how much of TeX's memory you used:
- 4966 strings out of 493305
- 74018 string characters out of 3129803
+ 4978 strings out of 493305
+ 74379 string characters out of 3129803
  167681 words of memory out of 3000000
- 8418 multiletter control sequences out of 15000+200000
+ 8428 multiletter control sequences out of 15000+200000
  12241 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,58p,520b,1079s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ma
-rcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmcsc10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/marcd/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marcd/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/marcd
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmti12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmtt10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Besturingsalgoritme.pdf (10 pages, 326496 bytes).
+<C:/U
+sers/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmcsc10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/marcd/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marcd/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/User
+s/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Besturingsalgoritme.pdf (13 pages, 579915 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

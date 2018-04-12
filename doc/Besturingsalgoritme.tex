@@ -41,7 +41,7 @@
 		\textsc{\LARGE Hogeschool Utrecht}\\[1.5cm]
 		\includegraphics[scale=.25]{hu-logo}\\ [1cm] % Afbeelding
 		\textsc{\Large Group Project}\\[0.5cm] % Cursus naam
-		\textsc{\large Course code}\\[0.5cm] % Cursus code
+		\textsc{\large TICT-V1GP-15}\\[0.5cm] % Cursus code
 		\HRule \\[0.4cm]
 		{ \huge Het besturingsalgoritme} \\[0.2cm] % Titel
 		\HRule \\[1.5cm]
@@ -68,22 +68,31 @@
 
 \section{Inleiding}
 	In dit document wordt ingegaan op het door ons ontwikkelde algoritme. Onze robot (gebouwd op LEGO mindstorms) wordt bestuurd door een programma dat draait op een Raspberry Pi en input geeft aan de robot via een BrickPi shield.\\
-	De bedoeling van de robot is dat hij volledig autonoom een zwarte lijn volgt op een wit veld. Hij moet dus ook bochten kunnen draaien, objecten ontwijken en de lijn terug kunnen vinden.\\
-	De BrickPi dient voor ons als interface met sensoren en actuatoren op de robot. De robot zelf is een lego mindstorms robot, maar i.p.v. de meegeleverde computer van mindstorms gebruiken we dus bovengenoemde configuratie van Raspberry Pi plus een BrickPi shield. Op het BrickPi shield zitten MMJ aansluitingen om via een serieel protocol met de motoren en sensoren te kunnen communiceren.
+	De bedoeling van de robot is dat hij volledig autonoom een zwarte lijn volgt op een wit veld. Hij moet dus ook bochten kunnen nemen, objecten kunnen ontwijken en de lijn terug kunnen vinden.\\
+	De BrickPi dient voor ons als interface met sensoren en motoren op de robot. De robot zelf is een Lego Mindstorms robot, maar i.p.v. de meegeleverde computer van mindstorms gebruiken we dus bovengenoemde configuratie van Raspberry Pi plus een BrickPi shield en C++ code. Op het BrickPi shield zitten MMJ aansluitingen om via een serieel protocol met de motoren en sensoren te kunnen communiceren.
 \newpage
 
-\section{Doelen}
-	Het algoritme moet zo werken dat de lijnvolger:
+\section{Probleemstelling}
+	Het algoritme kan twee parcours volgen. We beschrijven ze hieronder in stapjes:
 	\begin{itemize}
-		\item Een lijn kan zien door middel van een zwart-wit contrast.
-		\item Op een lijn kan blijven door zijn rijrichting aan te passen.
-		\item Bij een bocht kan afslaan.
-		\item Obstakels op de lijn kan ontwijken.
-		\item Zijn weg terug kan vinden naar de lijn.
-		\item Kan navigeren door een grid.
+		\item \textbf{Parcours 1}:
+		\begin{itemize}
+			\item Een lijn kan zien door middel van een zwart-wit contrast.
+			\item Op een lijn kan blijven door zijn rijrichting aan te passen.
+			\item Bij een bocht kan afslaan.
+			\item Obstakels op de lijn kan ontwijken.
+			\item Zijn weg terug kan vinden naar de lijn.
+		\end{itemize}
+		\item \textbf{Matrix}:
+		\begin{itemize}
+			\item Kan navigeren door een grid.
+			\item Herkennen van kruispunten.
+			\item Het volgen van een lijn.
+			\item In staat zijn, zijn route aan te kunnen passen bij een obstakel.
+		\end{itemize}
 	\end{itemize}
 \newpage
-\section{Ontwerp}
+\section{Aanpak}
 	In dit hoofdstuk zullen we aan de hand van een aantal diagrammen het ontwerp omschrijven.
 	\subsection{De Robot}
 		De robot is net als alle andere robots gebouwd in Lego Mindstorms. Zie hieronder voor onze robot. Hij heet "Tesla Model S".
@@ -95,6 +104,7 @@
 		\end{center}
 		Hierbij is de rechter sensor (t.o.v. de rijrichting) de lichtsensor en de linker sensor de kleurensensor. De brede lange sensor aan de bovenkant met de twee oogjes is de ultrasoonsensor.
 		\subsection{Use Case Diagram}
+			Zie onderstaand figuur voor de Use Case Diagram.
 		\begin{center}
 			\begin{SCfigure}[0.25][h]
 				\includegraphics[scale=.7]{UseCase}
@@ -105,7 +115,26 @@
 	\subsection{Activity Diagram}
 		In dit kader beschrijven we in het kort hoe we globaal het algoritme hebben ontworpen.
 \newpage
-\section{Algoritme}
+		\subsubsection{Parcours 1}
+			\begin{center}
+				\begin{SCfigure}[0][h]
+					\includegraphics[scale=.4]{ActivityDiagramParcours1}
+					\caption{Activity Diagram parcours 1}
+				\end{SCfigure}
+			\end{center}
+			In deze figuur wordt er door middel van een Activity Diagram beschreven in wat voor status de robot zich kan bevinden in het eerste parcours, met eventueel een obstakel.
+\newpage
+		\subsubsection{Matrix}
+			\begin{center}
+				\begin{SCfigure}[0][h]
+					\includegraphics[scale=.5]{ActivityDiagramMatrix}
+					\caption{Activity Diagram matrix parcours}
+				\end{SCfigure}
+			\end{center}
+			In deze figuur wordt er door middel van een Activity Diagram beschreven in wat voor status de robot zich kan bevinden.
+		\newpage
+\section{Resultaten}
+	In deze sectie zullen we de door ons ontwikkelde resultaten bespreken en visualiseren.
 	\subsection{Motoren}
 	De motoren zijn een belangrijk onderdeel van de robot. De motoren zorgen voor bochten, maar ook voor de snelheid voorwaarts. In deze paragraaf zullen we kort de werking beschrijven.
 		\subsubsection{Sturing}
@@ -183,5 +212,13 @@
 				    }
 				}
 			\end{lstlisting}
-		
+\newpage
+\section{Conclusie}
+	In dit kader bespreken we globaal de conclusies.
+	\subsection{Parcours 1}
+		De robot is in staat om soepel een lijn te volgen door middel van het proportionele algoritme. Ook kan de robot een obstakel ontwijken, als hij deze op de lijn tegenkomt. Tevens kan hij de lijn terugvinden.
+	\subsection{Matrix}
+		De robot is in staat een naar variable positie te navigeren. Elk kruispunt kan de robot herkennen. Mocht er een obstakel op de route zijn. Past de robot zijn route aan.
+	\subsection{Eindconclusie}
+		We kunnen hieruit concluderen dat de robot voldoet aan de gestelde eisen genoemd in sectie 2; Probleemstelling.
 \end{document}
