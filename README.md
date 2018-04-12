@@ -1,7 +1,10 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![HitCount](http://hits.dwyl.io/ramonvbemmel/lijn_volger.svg)](http://hits.dwyl.io/ramonvbemmel/lijn_volger)
 # De lijn_volger
-Dit is een kort maar krachtig stuk text over het project.
+In deze repo vindt u de code voor onze lijn volger gebouwd
+op LEGO Mindstorms en gebruikmakend van een BrickPi.
+
+![Demo GIF](https://media.giphy.com/media/3ml3hsKSDrdmKFWBKF/giphy.gif)
 
 
 ## Inhoudsopgave
