@@ -122,25 +122,28 @@ void dodge() 			//Deze functie is de ontwijkprocedure als er een object is gevon
 	sleep(delay);
 	//bocht naar links 90 graden
 	BP.set_motor_power(PORT_B, 0);
-	BP.set_motor_position_relative(PORT_C, 360);
+	BP.set_motor_position_relative(PORT_C, 200);
 	sleep(delay);
 	//rechtdoor
-	BP.set_motor_position_relative(PORT_B, 70);
+	/*BP.set_motor_position_relative(PORT_B, 70);
 	BP.set_motor_position_relative(PORT_C, 70);
-	sleep(delay);
-	// bochtje naar rechts 
+	sleep(delay);*/
+	/*// bochtje naar rechts 
 	BP.set_motor_power(PORT_C, 0);
 	BP.set_motor_position_relative(PORT_B, 100);
-	sleep(delay);
+	sleep(delay);*/
 
 	while ((R_VAL < 2000) || (L_VAL > 450))
 	{
 		if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0)
 		{
-			run_motor(26, 26);
+			run_motor(16, 26);
 			cout << "right: " << right_light.reflected << " left: " << left_light.reflected << endl;
 		}
 	}
+	BP.set_motor_power(PORT_C, 0);
+	BP.set_motor_position_relative(PORT_B, 100);
+	
 }
 // Signal handler that will be called when Ctrl+C is pressed to stop the program
 void exit_signal_handler(int signo)

@@ -21,15 +21,11 @@ int t_section_val_rgb = 500;
 int debug = 1;
 int my_x = 0;
 int my_y = 0;
-int target_x = 3;
-int target_y = 2;
+int target_x ;
+int target_y ;
 int direction = 90;
 int32_t motorEncoderRight;
 int32_t motorEncoderLeft;
-int32_t motorEncoderRight_old;
-int32_t motorEncoderLeft_old;
-int32_t motorEncoderRight_new;
-int32_t motorEncoderLeft_new;
 int distance_obstacle;
 unsigned int read_distance();
 bool obstacle = false;
@@ -67,6 +63,11 @@ int main()
 	sensor_light_t      left_light;
 
 	reset_encoders();
+	cout << "Geef target X: ";
+	cin >> target_x;
+	cout <<"Geef target Y: ";
+	cin  >> target_y;
+	
 	// Main loop
 	while (true)
   	{
@@ -78,10 +79,10 @@ int main()
 			set_encoders(motorEncoderLeft, motorEncoderRight);
 			if(my_x == target_x && my_y == target_y)
 			{
-			cout << "klaar. " << '\n';
-			stop_engines();
-			BP.reset_all();
-			break;
+				cout << "klaar. " << '\n';
+				stop_engines();
+				BP.reset_all();
+				break;
 			}
 			else if(R_VAL > inter_val_light && L_VAL < inter_val_rgb && obstacle == false) //Als beide waarden zwart zijn(kruispunt of T-splitsing)
 			{
@@ -89,14 +90,10 @@ int main()
 				cout << "LVAL: " << L_VAL << '\n';
 				cout << "RVAL: " << R_VAL << '\n';
 				reset_encoders();
-				stop_engines();
-				set_encoders(motorEncoderLeft_new,motorEncoderRight_new);
-				if(motorEncoderLeft_new > motorEncoderLeft_old +10 && motorEncoderLeft_new < motorEncoderLeft_old -10)
-				{
-					set_encoders(motorEncoderLeft_old, motorEncoderRight_old);
-					update_location(my_x, my_y, direction);
-					cout << "Location updated." << '\n';
-				}
+				//stop_engines();
+				update_location(my_x, my_y, direction);
+				cout << "Location updated." << '\n';
+				
 				while (R_VAL > inter_val_light && L_VAL < inter_val_rgb && distance_obstacle > 10)
 				{	
 					if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0)	
@@ -125,13 +122,13 @@ int main()
 								break;
 							}
 						}
-						else if(my_x == target_x && my_y < target_y)
+						else if(my_x == target_x && my_y < target_y) // juiste x as onjuiste y as
 						{	
 							cout << "else if 1" << '\n';
 							if(direction == 90)
 							{
-								BP.set_motor_position_relative(PORT_C, 100);
-								BP.set_motor_position_relative(PORT_B, 100);
+								BP.set_motor_position_relative(PORT_C, 110);
+								BP.set_motor_position_relative(PORT_B, 110);
 								sleep(2);
 								go_hard_left(direction);
 								cout << "Dir: " << direction << '\n';
@@ -145,11 +142,11 @@ int main()
 							}
 							else if(direction == 0) 
 							{
-								BP.set_motor_position_relative(PORT_C, 100);
-								BP.set_motor_position_relative(PORT_B, 100);
-								sleep(2);
+								//BP.set_motor_position_relative(PORT_C, 100);
+								//BP.set_motor_position_relative(PORT_B, 100);
+								//sleep(2);
 								go_straight(PORT_C, PORT_B);
-								break;
+								//break;
 							}
 						}
 						else if(my_y > target_y)
