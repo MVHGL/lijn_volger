@@ -7,7 +7,7 @@
 
 /* function definitions */
 /* function to measure proportional turn*/
-void prop_power(int sensor_value, bool left_sensor);
+void prop_power(int sensor_value, bool left_sensor, int &left_offset, int &right_offset);
 /* run the motors */
 void run_motor(int left_power, int right_power);
 #endif

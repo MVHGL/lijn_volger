@@ -13,11 +13,11 @@ void run_motor(int left_power, int right_power)		//Zet de motorpower op ingegeve
 }
 
 
-void prop_power(int sensor_value, bool left_sensor)	//Functie voor propotioneel bij sturen.
+void prop_power(int sensor_value, bool left_sensor, int &left_offset, int &right_offset)	//Functie voor propotioneel bij sturen.
 {
 	int Kp = 2;	// Proportional constant
-	int right_offset = 24; // offset for right sensor
-	int left_offset = 71;   // offset for left sensor
+	//int right_offset = 24; // offset for right sensor
+	//int left_offset = 71;   // offset for left sensor
 	int Tp = 24;		 // Target power
 
 	int motor_left = 0;

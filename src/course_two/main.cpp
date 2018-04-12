@@ -237,7 +237,7 @@ unsigned int read_distance()            //Dit is de functie voor het lezen van d
                 {
                         a = Ultrasonic2.cm;
                 }
-                while (b==0)
+                
                 while (b==0)
                 {
                         b = Ultrasonic2.cm;

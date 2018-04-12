@@ -25,7 +25,8 @@ void setup();
 void dodge();
 unsigned int read_distance();
 void exit_signal_handler(int signo);
-
+int left_offset, right_offset;
+int input=0;
 //DEBUG  
 int debug = 0;//zet op 1 voor algemene debug. 
 int debug_ultrasoon = 0;	//Zet op 1 voor het debuggen van de ultrasoon. 
@@ -46,7 +47,27 @@ int main()   // De main functie.
 
 	sensor_light_t      right_light; // struct for sensors
 	sensor_light_t      left_light;
-
+	if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0)
+	{
+		R_VAL;
+		L_VAL;
+	}
+		
+	cout << "Zet de bot op de ideale lijn en geef een 1: ";
+	cin>> input;
+	if(input)
+	{
+		if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0){
+				left_offset=(L_VAL/6);
+				//sleep(0.5); 
+				right_offset=(R_VAL/80);
+				
+				//sleep(0.5);
+				cout <<"Gekalibreerd\t Linker sensor: " <<left_offset <<"\t Rechter sensor: "<<right_offset <<endl; 
+				sleep(2);
+		}
+	}
+	
 	// Main loop
 	while (true)
 	{
@@ -64,8 +85,8 @@ int main()   // De main functie.
 				cout << read_distance() << endl;
 			}
 
-			prop_power(R_VAL, false); // steer proportionally on the right
-			prop_power(L_VAL, true);  // steer proportionally on the left
+			prop_power(R_VAL, false,left_offset,right_offset); // steer proportionally on the right
+			prop_power(L_VAL, true,left_offset,right_offset);  // steer proportionally on the left
 		}
 	}
 }
@@ -133,16 +154,18 @@ void dodge() 			//Deze functie is de ontwijkprocedure als er een object is gevon
 	BP.set_motor_position_relative(PORT_B, 100);
 	sleep(delay);*/
 
-	while ((R_VAL < 2000) || (L_VAL > 450))
+	while ((R_VAL < (right_offset*80)) || (L_VAL > (left_offset*6)))
 	{
 		if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0)
 		{
+			cout <<"IN while line aan het zoeken" <<endl; 
 			run_motor(16, 26);
 			cout << "right: " << right_light.reflected << " left: " << left_light.reflected << endl;
 		}
 	}
-	BP.set_motor_power(PORT_C, 0);
-	BP.set_motor_position_relative(PORT_B, 100);
+	BP.set_motor_power(PORT_C, 100);
+	BP.set_motor_position_relative(PORT_B, 0);
+	
 	
 }
 // Signal handler that will be called when Ctrl+C is pressed to stop the program
