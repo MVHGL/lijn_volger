@@ -2,8 +2,7 @@
 #define _MATRIX_CONTROL_HPP
 
 #include <stdint.h>	// for uint8_t
-#include "BrickPi3.h"
-
+#include "../../lib/BrickPi3.h" // for BrickPi3
 
 /* function definitions */
 /* function to turn left, right or go straight */
