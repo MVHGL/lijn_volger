@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)
+[![HitCount](http://hits.dwyl.io/ramonvbemmel/lijn_volger.svg)](http://hits.dwyl.io/ramonvbemmel/lijn_volger)
 # De lijn_volger
 Dit is een kort maar krachtig stuk text over het project.
 
@@ -6,24 +8,23 @@ Dit is een kort maar krachtig stuk text over het project.
 * [Algemene informatie](#algemene-informatie)
 * [Projectgroep](#projectgroep)
 * [Taakverdeling](#taakverdeling)
-* [Installatie (TODO)](#)
-* [Licentie (TODO)](#)
+* [Installatie](#installatie)
 
-### Algemene informatie
+## Algemene informatie
 * Klas:           TICT-TI-V1B
 * Projectgroep:   Groep 1 (The A-team)
 * Teamleider:     Cris van der Nolle
 * Project:        "De lijnen volger"
 
 
-### Projectgroep
+## Projectgroep
 * Marc Dirven             
 * Nathan Hoekstra
 * Nick Snel
 * Ramon van Bemmel
 * Cris van der Nolle
 
-### Taakverdeling
+## Taakverdeling
 * Projectleider (bewaakt planning):             Ramon van Bemmel
 * Teamleider:                                   Cris van der Nolle
 * Eindcontroleur voor mechanische gedeelte:     Nathan Hoekstra
@@ -31,3 +32,18 @@ Dit is een kort maar krachtig stuk text over het project.
 * Eindcontroleur voor code (stijl, integratie): Nick Snel
 * Bouwer:                                       Iedereen
 * Programmeur/tester:                           Iedereen
+
+## Installatie
+
+Compile alle banen
+```bash
+ $ make all
+```
+Compile de eerste baan
+```bash
+ $ make course_one
+```
+Clean de bin directory
+```bash
+ $ make clean
+```
