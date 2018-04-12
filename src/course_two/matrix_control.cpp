@@ -56,13 +56,13 @@ void stop_engines()
 {
 	MyBP.set_motor_power(PORT_C, 0);
 	MyBP.set_motor_power(PORT_B, 0);
-	//sleep(1);
+	sleep(1);
 }
 
 void go_hard_left(int &direction)
 {
 	MyBP.set_motor_position_relative(PORT_C, 360);
-	MyBP.set_motor_position_relative(PORT_B, -80);
+	MyBP.set_motor_position_relative(PORT_B, -100);
 	sleep(1.5);
 	
 	if (direction == 0)
@@ -73,7 +73,7 @@ void go_hard_left(int &direction)
 
 void go_hard_right(int &direction)
 {
-	MyBP.set_motor_position_relative(PORT_C, -80);
+	MyBP.set_motor_position_relative(PORT_C, -100);
 	MyBP.set_motor_position_relative(PORT_B, 360);
 	sleep(1.5);
 	

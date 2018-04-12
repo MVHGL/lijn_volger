@@ -30,6 +30,7 @@ int distance_obstacle;
 unsigned int read_distance();
 bool obstacle = false;
 bool dodge_obstacle = false;
+int counter = 0;
 
 // Signal handler that will be called when Ctrl+C is pressed to stop the program
 void exit_signal_handler(int signo)
@@ -73,6 +74,7 @@ int main()
   	{
 		if (BP.get_sensor(PORT_3, right_light) == 0 && BP.get_sensor(PORT_4, left_light) == 0)
 		{	
+			counter = 0;
 			//cout << "LVAL: " << L_VAL << '\n';
 			//cout << "RVAL: " << R_VAL << '\n';
 			distance_obstacle = read_distance();
@@ -90,8 +92,12 @@ int main()
 				cout << "LVAL: " << L_VAL << '\n';
 				cout << "RVAL: " << R_VAL << '\n';
 				reset_encoders();
-				//stop_engines();
-				update_location(my_x, my_y, direction);
+				stop_engines();
+				if(counter == 0)
+				{
+					update_location(my_x, my_y, direction);
+					counter = 1;
+				}
 				cout << "Location updated." << '\n';
 				
 				while (R_VAL > inter_val_light && L_VAL < inter_val_rgb && distance_obstacle > 10)
@@ -110,6 +116,7 @@ int main()
 							if (direction == 90)
 							{
 								go_straight(PORT_C, PORT_B);
+								sleep(0.5);
 							}
 							else if (direction == 0)
 							{
