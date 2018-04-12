@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.7)  12 APR 2018 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.1)  12 APR 2018 21:56
 entering extended mode
 **./Besturingsalgoritme.tex
 (Besturingsalgoritme.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -20,92 +20,83 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
-y"
-Package: babel 2018/02/14 3.18 The Babel package
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/11/03 3.15 The Babel package
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
-"
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-dutch\dutch.
-ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-dutch\dutch.ldf"
 Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/02/14 3.18 Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/11/03 3.15 Babel common definitions
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
 \babel@savecnt=\count87
 \U@D=\dimen103
-
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
-ef")
-\bbl@dirlevel=\count88
 )
 Package babel Info: Making " an active character on input line 132.
 ))
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
-ics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sidecap\sidecap.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\sidecap\sidecap.sty"
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
- ("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \SC@BOXWD=\dimen106
 \SC@CAPWD=\dimen107
 \SC@tempdima=\dimen108
 \SC@tempdimb=\dimen109
-\c@SC@C=\count89
+\c@SC@C=\count88
 \SC@BOX=\box26
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks15
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip43
-\multirow@cntb=\count90
+\multirow@cntb=\count89
 \multirow@dima=\skip44
 \bigstrutjot=\dimen110
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen111
 \extrarowheight=\dimen112
@@ -113,98 +104,85 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip45
 \backup@length=\skip46
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
-sty"
-\lst@mode=\count91
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count90
 \lst@gtempboxa=\box27
 \lst@token=\toks17
-\lst@length=\count92
+\lst@length=\count91
 \lst@currlwidth=\dimen113
-\lst@column=\count93
-\lst@pos=\count94
+\lst@column=\count92
+\lst@pos=\count93
 \lst@lostspace=\dimen114
 \lst@width=\dimen115
-\lst@newlines=\count95
-\lst@lineno=\count96
+\lst@newlines=\count94
+\lst@lineno=\count95
 \lst@maxwidth=\dimen116
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count97
-\lst@skipnumbers=\count98
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
 \lst@framebox=\box28
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
-cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
-.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtool
-s.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count99
-\calc@Bcount=\count100
+\calc@Acount=\count98
+\calc@Bcount=\count99
 \calc@Adimen=\dimen117
 \calc@Bdimen=\dimen118
 \calc@Askip=\skip47
 \calc@Bskip=\skip48
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count101
+\calc@Ccount=\count100
 \calc@Cskip=\skip49
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen119
 ))
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen120
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count102
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count103
-\leftroot@=\count104
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count105
-\DOTSCASE@=\count106
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -213,15 +191,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen121
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count107
-\c@MaxMatrixCols=\count108
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip10
-\c@parentequation=\count109
-\dspbrk@lvl=\count110
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
 \tag@help=\toks19
-\row@=\count111
-\column@=\count112
-\maxfields@=\count113
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
 \andhelp@=\toks20
 \eqnshift@=\dimen122
 \alignsep@=\dimen123
@@ -240,7 +218,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count114
+\g_MT_multlinerow_int=\count113
 \l_MT_multwidth_dim=\dimen128
 \origjot=\skip53
 \l_MT_shortvdotswithinadjustabove_dim=\dimen129
@@ -250,82 +228,108 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen133
 \l_MT_below_shortintertext_sep=\dimen134
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count114
+\Gm@cntv=\count115
+\c@Gm@tempcnt=\count116
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks23
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")
+
+! Package keyval Error: a4 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.994 \ProcessOptionsKV[p]{Gm}
+                              %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) (Besturingsalgoritme.aux)
+)
+(Besturingsalgoritme.aux)
 \openout1 = `Besturingsalgoritme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen135
+\scratchcounter=\count117
+\scratchdimen=\dimen143
 \scratchbox=\box31
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen136
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks24
-)
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
-base.sty"
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen144
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks25
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
-rr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
-ekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
-ys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
-s.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
-x.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -334,14 +338,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -355,10 +353,10 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 
 ABD: EverySelectfont initializing macros
@@ -379,125 +377,164 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip66
 \JustifyingParindent=\skip67
 )
-\c@lstlisting=\count121
+\c@lstlisting=\count123
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 <Images/hu-logo.png, id=1, 357.335pt x 357.335pt>
 File: Images/hu-logo.png Graphic file (type png)
 <use Images/hu-logo.png>
-Package pdftex.def Info: Images/hu-logo.png  used on input line 42.
-(pdftex.def)             Requested size: 89.33353pt x 89.33353pt.
- [1
+Package pdftex.def Info: Images/hu-logo.png  used on input line 43. on input li
+ne 43.
+Package pdftex.def Info: Requested size: 89.33353pt x 89.33353pt on input line 
+43.
+[1
 
-{C:/Users/marcd/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/hu
--logo.png>]
-(Besturingsalgoritme.toc)
+{C:/Users/Marc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/hu-
+logo.png>] (Besturingsalgoritme.toc)
 \tf@toc=\write3
 \openout3 = `Besturingsalgoritme.toc'.
 
  [1] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
 
-("C:\Users\marcd\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
-
-[3]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+ [3]
 <Images/TeslaModelS.jpg, id=23, 722.7pt x 963.6pt>
 File: Images/TeslaModelS.jpg Graphic file (type jpg)
 <use Images/TeslaModelS.jpg>
-Package pdftex.def Info: Images/TeslaModelS.jpg  used on input line 101.
-(pdftex.def)             Requested size: 216.81166pt x 289.08223pt.
+Package pdftex.def Info: Images/TeslaModelS.jpg  used on input line 102. on inp
+ut line 102.
+Package pdftex.def Info: Requested size: 216.81166pt x 289.08223pt on input lin
+e 102.
 
-Overfull \hbox (47.48701pt too wide) in paragraph at lines 103--103
+Overfull \hbox (47.48701pt too wide) in paragraph at lines 104--104
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Overfull \hbox (37.85655pt too wide) in paragraph at lines 103--103
+Overfull \hbox (37.85655pt too wide) in paragraph at lines 104--104
 |\OT1/cmr/m/n/12 "Model
  []
 
 
-Overfull \hbox (12.40265pt too wide) in paragraph at lines 103--103
+Overfull \hbox (12.40265pt too wide) in paragraph at lines 104--104
 \OT1/cmr/m/n/12 S"| 
  []
 
-[4 <./Images/TeslaModelS.jpg>]
-<Images/UseCase.png, id=27, 259.56975pt x 324.61275pt>
+<Images/UseCase.png, id=24, 259.56975pt x 324.61275pt>
 File: Images/UseCase.png Graphic file (type png)
 <use Images/UseCase.png>
-Package pdftex.def Info: Images/UseCase.png  used on input line 110.
-(pdftex.def)             Requested size: 181.69757pt x 227.22736pt.
+Package pdftex.def Info: Images/UseCase.png  used on input line 111. on input l
+ine 111.
+Package pdftex.def Info: Requested size: 181.69757pt x 227.22736pt on input lin
+e 111.
 
-Overfull \hbox (2.06262pt too wide) in paragraph at lines 112--112
+Overfull \hbox (2.06262pt too wide) in paragraph at lines 113--113
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 |\OT1/cmr/m/n/12 In deze
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \OT1/cmr/m/n/12 te zien
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \OT1/cmr/m/n/12 welke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \OT1/cmr/m/n/12 ac-ti-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \OT1/cmr/m/n/12 tei-ten
  []
 
-[5 <./Images/UseCase.png>]
+[4 <./Images/TeslaModelS.jpg>] [5 <./Images/UseCase.png>]
 <Images/ActivityDiagramParcours1.jpg, id=32, 1113.56026pt x 817.8555pt>
 File: Images/ActivityDiagramParcours1.jpg Graphic file (type jpg)
 <use Images/ActivityDiagramParcours1.jpg>
 Package pdftex.def Info: Images/ActivityDiagramParcours1.jpg  used on input lin
-e 121.
-(pdftex.def)             Requested size: 445.41621pt x 327.1364pt.
+e 122. on input line 122.
+Package pdftex.def Info: Requested size: 445.41621pt x 327.1364pt on input line
+ 122.
 
-Overfull \hbox (112.90323pt too wide) in paragraph at lines 123--123
+Overfull \hbox (72.8986pt too wide) in paragraph at lines 124--124
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Overfull \hbox (107.18939pt too wide) in paragraph at lines 123--123
+Overfull \hbox (67.18477pt too wide) in paragraph at lines 124--124
 |\OT1/cmr/m/n/12 Activity
  []
 
 
-Overfull \hbox (87.44516pt too wide) in paragraph at lines 123--123
+Overfull \hbox (47.44054pt too wide) in paragraph at lines 124--124
 \OT1/cmr/m/n/12 Dia-
  []
 
 
-Overfull \hbox (91.52705pt too wide) in paragraph at lines 123--123
+Overfull \hbox (51.52243pt too wide) in paragraph at lines 124--124
 \OT1/cmr/m/n/12 gram
  []
 
 
-Overfull \hbox (86.30489pt too wide) in paragraph at lines 123--123
+Overfull \hbox (46.30026pt too wide) in paragraph at lines 124--124
 \OT1/cmr/m/n/12 par-
  []
 
 
-Overfull \hbox (92.2451pt too wide) in paragraph at lines 123--123
+Overfull \hbox (52.24048pt too wide) in paragraph at lines 124--124
 \OT1/cmr/m/n/12 cours
  []
 
 
-Overfull \hbox (71.29115pt too wide) in paragraph at lines 123--123
+Overfull \hbox (31.28653pt too wide) in paragraph at lines 124--124
 \OT1/cmr/m/n/12 1| 
  []
 
@@ -506,40 +543,41 @@ Overfull \hbox (71.29115pt too wide) in paragraph at lines 123--123
 File: Images/ActivityDiagramMatrix.jpg Graphic file (type jpg)
 <use Images/ActivityDiagramMatrix.jpg>
 Package pdftex.def Info: Images/ActivityDiagramMatrix.jpg  used on input line 1
-30.
-(pdftex.def)             Requested size: 407.5215pt x 361.60005pt.
+31. on input line 131.
+Package pdftex.def Info: Requested size: 407.5215pt x 361.60005pt on input line
+ 131.
 
-Overfull \hbox (75.00851pt too wide) in paragraph at lines 132--132
+Overfull \hbox (47.48701pt too wide) in paragraph at lines 133--133
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Overfull \hbox (69.29468pt too wide) in paragraph at lines 132--132
+Overfull \hbox (41.77318pt too wide) in paragraph at lines 133--133
 |\OT1/cmr/m/n/12 Activity
  []
 
 
-Overfull \hbox (49.55045pt too wide) in paragraph at lines 132--132
+Overfull \hbox (22.02895pt too wide) in paragraph at lines 133--133
 \OT1/cmr/m/n/12 Dia-
  []
 
 
-Overfull \hbox (53.63234pt too wide) in paragraph at lines 132--132
+Overfull \hbox (26.11084pt too wide) in paragraph at lines 133--133
 \OT1/cmr/m/n/12 gram
  []
 
 
-Overfull \hbox (47.10463pt too wide) in paragraph at lines 132--132
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 133--133
 \OT1/cmr/m/n/12 ma-
  []
 
 
-Overfull \hbox (46.12547pt too wide) in paragraph at lines 132--132
+Overfull \hbox (18.60397pt too wide) in paragraph at lines 133--133
 \OT1/cmr/m/n/12 trix
  []
 
 
-Overfull \hbox (71.32243pt too wide) in paragraph at lines 132--132
+Overfull \hbox (43.80093pt too wide) in paragraph at lines 133--133
 \OT1/cmr/m/n/12 parcours| 
  []
 
@@ -547,46 +585,45 @@ Overfull \hbox (71.32243pt too wide) in paragraph at lines 132--132
 <Images/proportional.png, id=47, 202.95825pt x 219.219pt>
 File: Images/proportional.png Graphic file (type png)
 <use Images/proportional.png>
-Package pdftex.def Info: Images/proportional.png  used on input line 164.
-(pdftex.def)             Requested size: 142.0698pt x 153.45224pt.
+Package pdftex.def Info: Images/proportional.png  used on input line 165. on in
+put line 165.
+Package pdftex.def Info: Requested size: 142.0698pt x 153.45224pt on input line
+ 165.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 [][]\OT1/cmr/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 |\OT1/cmr/m/n/12 Proportionele
  []
 
 
-Overfull \hbox (5.01292pt too wide) in paragraph at lines 166--166
+Overfull \hbox (5.01292pt too wide) in paragraph at lines 167--167
 \OT1/cmr/m/n/12 terugkoppeling| 
  []
 
 [9 <./Images/proportional.png>] [10] [11] [12] (Besturingsalgoritme.aux) ) 
 Here is how much of TeX's memory you used:
- 4978 strings out of 493305
- 74379 string characters out of 3129803
- 167681 words of memory out of 3000000
- 8428 multiletter control sequences out of 15000+200000
+ 5441 strings out of 493312
+ 78795 string characters out of 3138903
+ 178688 words of memory out of 3000000
+ 8876 multiletter control sequences out of 15000+200000
  12241 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,58p,520b,1079s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/U
-sers/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmcsc10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/marcd/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marcd/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/User
-s/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmtt10.pfb><C:/Users/marcd/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Besturingsalgoritme.pdf (13 pages, 579915 bytes).
+<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Besturingsalgoritme.pdf (13 pages, 579724 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
