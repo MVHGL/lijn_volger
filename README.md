@@ -4,7 +4,7 @@
 In deze repo vindt u de code voor onze lijn volger gebouwd
 op LEGO Mindstorms en gebruikmakend van een BrickPi.
 
-![Demo GIF](https://github.com/ramonvbemmel/lijn_volger/blob/master/doc/Images/animated_gif-source.gif?raw=true)
+![Demo GIF](https://github.com/ramonvbemmel/lijn_volger/blob/master/doc/Images/demo.gif)
 
 
 ## Inhoudsopgave
